@@ -16,7 +16,7 @@
 
 * Pasta cypress que possue subpastas que será explica cada uma abaixo:
 
-A `fixture` é onde seus mocks são armazenados podendo ser utilizados em qualquer teste, normalmente coloco-se planilhas também neste local e qualquer arquivo fixo necessário.
+A `fixture` é onde seus mocks são armazenados podendo ser utilizados em qualquer teste, normalmente coloca-se planilhas também neste local e qualquer arquivo fixo necessário.
 
 A `integration` que é onde deve ser criado e salvo os testes.
 
@@ -26,13 +26,13 @@ A pasta `Support`, que é onde você colocará comandos personalizados e parâme
 
 * Arquivos na raiz do projeto
 
-1. eslintignore é o arquivo que o eslint utiliza para ignorar arquivos que você não desejar utlizar a melhoria e padronização que o eslint aplica
-2. .ESlint.js é o arquivo onde está as configurações do eslint
-3. .gitignore e o arquivo onde indica para o git ignora ao fazer commits
-4. GitLab-ci e o arquivo onde cria as schedules de integração continua 
-5. Cypress.json é o arquivo onde tem as configurações e variaveis de ambiente do cypress
-6. Package.json é o arquivo onde está os facilitadores de execução
-7. README.md é o arquivo onde instrui os usuarios a entender o projeto e executar o mesmo
+1. `eslintignore` é o arquivo que o eslint utiliza para ignorar arquivos que você não desejar utlizar a melhoria e padronização que o eslint aplica
+2. `.ESlint.js` é o arquivo onde está as configurações do eslint
+3. `.gitignore` e o arquivo onde indica para o git ignora ao fazer commits
+4. `GitLab-ci` e o arquivo onde cria as schedules de integração continua 
+5. `Cypress.json` é o arquivo onde tem as configurações e variaveis de ambiente do cypress
+6. `Package.json` é o arquivo onde está os facilitadores de execução
+7. `README.md` é o arquivo onde instrui os usuarios a entender o projeto e executar o mesmo
 
 ### Clonar o projeto `Desafio` e executar no terminal para rodar o projeto:
 
