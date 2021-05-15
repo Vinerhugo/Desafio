@@ -1,0 +1,6 @@
+{
+  "max-http-header-size": 200000,
+  "env": {
+    "URL_TRELLO": "https://baap-console-qa-gcp.magazineluiza.com.br"
+  }
+}

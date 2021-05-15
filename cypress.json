@@ -1,0 +1,14 @@
+{
+  "max-http-header-size": 200000,
+  "screenshotOnRunFailure": true,
+  "video": false,
+  "pageLoadTimeout": 200000,
+  "chromeWebSecurity": false,
+  "ignoreTestFiles": [
+  ],
+  "env": {
+    "URL_TRELLO": "https://api.trello.com",
+    "apiKey":"764f7d8c9947a51da81f932feaca9810",
+    "token": "cc2122ab260123079b18776ced26cea93fd6222cc68c2ff78e629fcaf65831e1"
+  }
+}

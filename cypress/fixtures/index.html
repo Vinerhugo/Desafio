@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+		<form action="http://baap-sso-staging-gcp.magazineluiza.com.br/auth" method="POST">
+			<input type="hidden" id="state" name="state" value="1234567890">
+			<input type="hidden" class="form-control" id="redirect" name="redirect" value="true">
+			<div class="form-group">
+				<label for="user">Usuário:</label>
+				<input type="text" class="form-control" id="user" name="user" value="ef_mazarao">
+			</div>
+			<div class="form-group">
+				<label for="password">Senha:</label>
+				<input type="password" class="form-control" id="password" name="password" value="123">
+			</div>
+			<div class="form-group">
+				<label for="url_callback">URL Callback:</label>
+				<input type="text" class="form-control" id="url_callback" name="url_callback" value="http://localhost/teste?codigo=vem_a_frente">
+			</div>
+			<div class="form-group">
+				<label for="application_id">ID Aplicação:</label>
+				<input type="text" class="form-control" id="application_id" name="application_id" value="5f047bb8e8a529c2955209ba">
+			</div>
+		<button type="submit" class="btn btn-primary">Enviar</button>
+		</form>
+	</div>
+<body>
+</html>
